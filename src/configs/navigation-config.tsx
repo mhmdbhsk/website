@@ -1,26 +1,22 @@
 export const navigationConfig = [
   {
-    id:'home',
+    id: "home",
     path: "/",
-
-    title: "Beranda",
+    title: "beranda",
   },
   {
-    id:'about',
+    id: "about",
     path: "/about",
-
-    title: "Tentang",
+    title: "tentang",
   },
   {
-    id:'project',
+    id: "project",
     path: "/project",
-
-    title: "Proyek",
+    title: "proyek",
   },
   {
-    id:'blog',
+    id: "blog",
     path: "/blog",
-
-    title: "Blog",
+    title: "blog",
   },
 ];

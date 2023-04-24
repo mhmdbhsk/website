@@ -4,7 +4,7 @@ export type ContainerProps = {
 
 export const Container: React.FC<ContainerProps> = ({ children }) => {
   return (
-    <main className="z-50 flex min-h-screen w-full flex-col items-center justify-center py-32">
+    <main className="z-50 mt-8 min-h-screen w-full justify-center md:mt-20 lg:mt-32">
       {children}
     </main>
   );

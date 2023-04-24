@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import cx from "classnames";
-import { sfPro, inter } from "./fonts";
+import { sfPro, inter, kaisei } from "./fonts";
 import { Suspense } from "react";
 import { Container, Nav } from "@/components/layout";
 
@@ -25,7 +25,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cx(sfPro.variable, inter.variable)}>
+      <body className={cx(sfPro.variable, inter.variable, kaisei.variable)}>
         <div className="fixed -z-10 h-screen w-full bg-[#111010]" />
 
         <div className="flex min-h-screen w-full">

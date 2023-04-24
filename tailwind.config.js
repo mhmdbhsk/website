@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ["var(--font-sf)", "system-ui", "sans-serif"],
+        serif: ["var(--font-kaisei)", "system-ui", "sans-serif"],
         default: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       animation: {
