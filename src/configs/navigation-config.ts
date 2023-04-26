@@ -10,9 +10,9 @@ export const navigationConfig = [
     title: "tentang",
   },
   {
-    id: "project",
-    path: "/project",
-    title: "proyek",
+    id: "portfolio",
+    path: "/portfolio",
+    title: "portofolio",
   },
   {
     id: "blog",
@@ -20,3 +20,5 @@ export const navigationConfig = [
     title: "blog",
   },
 ];
+
+export type NavigationConfigType = typeof navigationConfig;

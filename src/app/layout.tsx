@@ -28,15 +28,13 @@ export default async function RootLayout({
       <body className={cx(sfPro.variable, inter.variable, kaisei.variable)}>
         <div className="fixed -z-10 h-screen w-full bg-[#111010]" />
 
-        <div className="flex min-h-screen w-full">
+        <div className="flex min-h-screen w-full flex-col">
           <Suspense fallback="...">
             {/* @ts-expect-error Server Component */}
             <Nav />
           </Suspense>
 
-          <div className="flex flex-1">
-            <Container>{children}</Container>
-          </div>
+          <Container>{children}</Container>
         </div>
 
         <Analytics />

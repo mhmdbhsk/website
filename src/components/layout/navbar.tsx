@@ -2,15 +2,16 @@
 
 import Link from "next/link";
 import { navigationConfig } from "@/configs";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export function NavBar() {
   const pathname = usePathname();
+  const router = useRouter();
   const isActive = (path: string) => path === pathname;
 
   return (
     <>
-      <aside className="mx-5 flex w-full max-w-[150px] flex-col justify-center">
+      <aside className="mx-auto my-10 flex justify-center md:justify-start w-full max-w-[450px] items-center px-4 md:max-w-[600px] flex-wrap">
         {navigationConfig.map((item) => (
           <Link
             key={item.id}

@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Precedent - Building blocks for your Next.js project";
+export const alt = "Muhammad Bhaska's Personal Web";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -25,11 +25,6 @@ export default async function OG() {
             "linear-gradient(to bottom right, #E0E7FF 25%, #ffffff 50%, #CFFAFE 75%)",
         }}
       >
-        {/* <img
-          src={new URL("/logo.png", import.meta.url).toString()}
-          alt="Precedent Logo"
-          tw="w-20 h-20 mb-4 opacity-95"
-        /> */}
         <h1
           style={{
             fontSize: "100px",
@@ -42,7 +37,7 @@ export default async function OG() {
             letterSpacing: "-0.02em",
           }}
         >
-          Precedent
+          Muhammad Bhaska
         </h1>
       </div>
     ),
