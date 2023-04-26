@@ -29,7 +29,7 @@ export const portfolioConfig = [
     href: "https://igate.hmif-undip.com",
     description:
       "I-GATE merupakan kegiatan penyambutan mahasiswa tingkatan 2022 serta perkenalan dan pentas seni setiap tingkatan yang diadakan oleh Himpunan Mahasiswa Informatika.",
-    image: "/portfolio/i-gate.png",
+    image: "/portfolio/igate.webp",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const portfolioConfig = [
   {
     id: 6,
     title: "Anforcom 2022 Dashboard Page",
-    href: null,
+    href: "https://github.com/anforcom-2022/anforcom-app",
     description:
       "Lomba teknologi tahunan yang diadakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro.",
     image: "/portfolio/anforcom-dashboard.webp",

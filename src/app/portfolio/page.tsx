@@ -15,6 +15,7 @@ export default async function Portfolio() {
               image={item.image}
               description={item.description}
               title={item.title}
+              path={item.href}
             />
           ))}
         </div>
